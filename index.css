@@ -1,80 +1,120 @@
-/*CSS Reset*/
 * {
-	margin: 0;
 	padding: 0;
+	margin: 0;
 	box-sizing: border-box;
 }
 
-#box {
-
-/*With border-box, border and padding is included in the total width and height*/
-/*without border box, border and padding is added on top of the width and height*/
-	height: 150px;
-	width: 150px;
-	padding: 50px;
-	border: 1px solid black;
-	background-color: orange;
+nav	{
+	background-color: #ff00ff;
+	padding: 20px;
+	padding-right: 30px;
+	font-family: "Verdana", monospace;
+	text-align: right;
+	word-spacing: 15px;
 }
 
 body {
-	font-family: "Tahoma", sans-serif;
+	font-family: "Verdana", monospace;
+	color: white;
 }
-
-nav	{
-	padding: 8px;
-	margin-bottom: 32px;
-	text-align: center;
-	background-color: gray;
-}
-
-/*margin vs padding*/
-/*margin is best used when creating space between elements*/
-/*padding is best used when creating space between an element's border and its content*/
 
 #landing {
-	padding-left: 300px;
-	padding-right: 300px;
-	padding-top: 32px;
-	padding-bottom: 32px;
-	text-align: center;
+	text-align: left;
+	background-color: blueviolet;
+	padding: 100px;
+	padding-bottom: 100px;
 }
 
-.header {
-	margin-top: 16px;
-	margin-bottom: 16px;
+h1 {
+	font-size: 80px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-bottom: 20px;
 }
 
-#apply {
+#subtitle {
+	padding-right: 600px;
+	padding-bottom: 40px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 30px;
+	font-style: normal;
+}
+
+#cta {
+	font-weight: normal;
+	padding-bottom: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-style: italic;
+	font-size: 18px;
 	color: white;
-	background-color: slategrey;
-	padding: 8px;
-	font-size: 16px;
-	margin-top: 16px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+button {
+	background-color: black;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-color: white;
+	border-radius: 5px;
+	border-style: solid;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+input {
+	font-size: 13px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-right: 150px;
 	border: none;
 }
 
-#succeed-info {
-/*vw in CSS stands for viewport width. It's a unit of measurement that represents a percentage of a viewport width	*/
-	padding-left: 15vw;
-	padding-right: 15vw;
-	padding-top: 32px;
-	padding-bottom: 32px;
+.card-img {
+	height: 300px;
+	width: 300px;
+	object-fit: cover;
+	object-position: top;
+}
+
+#movies {
+	text-align: center;
 }
 
 .card {
-/*allows the divs to appear beside each other
-adding the dash block can set the height and width	*/
 	text-align: center;
 	display: inline-block;
-/*aligns elements with the tallest element in line, used with "inline-block" value*/
 	vertical-align: top;
 	width: 300px;
-	margin-left: 2px;
-	margin-right: 2px;
+	padding: 30px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+#featured_movies {
+	color: black;
+	font-size: 30px;
+	margin-top: 75px;
+	margin-bottom: 75px;
 }
 
 footer {
-	padding: 16px;
-	text-align: center;
+	margin-top: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: blueviolet;
+	word-spacing: 10px;
 }
 
+#contact_us {
+	padding-bottom: 10px;
+	word-spacing: 0;
+}
